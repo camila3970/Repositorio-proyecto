@@ -1,0 +1,383 @@
+/*barra predeterminada*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+.barra {
+  background-color: rgb(188, 143, 143);
+  color: rgb(255, 255, 255);
+}
+
+.barranavegacion {
+  text-align: center;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 15px;
+}
+
+.barra h1 {
+  font-family: "Cookie", cursive;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/*inicio*/
+
+.slogan {
+  background-color: rgb(188, 143, 143);
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border: 2px;
+  font-size: 10px;
+  border-style: solid;
+}
+
+.fotoprincipal {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.botonservicios {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(188, 143, 143);
+}
+
+.promo {
+  background-color: rgb(188, 143, 143);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.servicios {
+  display: block;
+  color: rgb(188, 143, 143);
+  font-family: "Cookie", cursive;
+  font-size: 40px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contenedorservicios {
+  border: solid;
+  border-color: rgb(188, 143, 143);
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.fservicios {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(188, 143, 143);
+}
+
+/*servicios html*/
+.nuestroserviciostitulo {
+  color: rgb(188, 143, 143);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border: 2px;
+  width: auto;
+  border-style: solid;
+  border-color: rgb(188, 143, 143);
+}
+
+.mision {
+  background-color: rgb(188, 143, 143);
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  text-align: center;
+  border: 2px;
+  border-style: solid;
+}
+.servicioscontenedor {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.serviciosconf {
+  background-color: rgb(188, 143, 143);
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding-top: 30px;
+  border: solid;
+  border-color: rgb(255, 255, 255);
+}
+
+.serviciosconf img {
+  display: block;
+  margin: auto;
+}
+
+/*nuestro staff html*/
+.conocealequipo {
+  color: rgb(188, 143, 143);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(188, 143, 143);
+}
+
+.contenedorcardstaff {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardstaff {
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(188, 143, 143);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+/* estilo formularios contacto y trabaja con nosotres*/
+
+form {
+  width: autopx;
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+#button {
+  background-color: rgb(188, 143, 143);
+  color: rgb(255, 255, 255);
+}
+
+/* contacto html */
+.contenedorconsultas {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: rgb(188, 143, 143);
+}
+
+.tituloform {
+  font-family: "Poppins", sans-serif;
+  color: rgb(188, 143, 143);
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.formulariocontacto {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.trabajaconosotros {
+  font-family: "Poppins", sans-serif;
+  color: rgb(188, 143, 143);
+}
+
+/* trabajaconnosotroshtml */
+.formulariotrabaja {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.tituloformtra {
+  font-family: "Poppins", sans-serif;
+  color: rgb(188, 143, 143);
+  text-align: center;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+/*pie de pagina determinado*/
+
+.piedepag {
+  background-color: rgb(188, 143, 143);
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mapa {
+  display: flex;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.datosdecontactofoot {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  margin: 5px;
+}
+
+.contacto li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin: 5px;
+}
+
+/* media barra predeterminada*/
+@media screen and (min-width: 768px) {
+  .barranavegacion {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-areas: "h1 inicio nuestrosservicios promos nuestrostaff contácto";
+  }
+  .barranavegacion li {
+    transition: all;
+  }
+
+  h1 {
+    grid-area: h1;
+  }
+
+  .inicio {
+    grid-area: inicio;
+  }
+
+  .nuestrosservicios {
+    grid-area: nuestrosservicios;
+  }
+
+  .promos {
+    grid-area: promos;
+  }
+
+  .nuestrostaff {
+    grid-area: nuestrostaff;
+  }
+
+  .contácto {
+    grid-area: contácto;
+  }
+
+  /* media inicio*/
+  .slogan {
+    font-size: 15px;
+  }
+
+  .botonservicios {
+    font-size: 20px;
+  }
+
+  .promo {
+    font-size: 20px;
+  }
+
+  .fservicios {
+    display: inline-block;
+  }
+
+  /*media servicios*/
+  .nuestroserviciostitulo {
+    font-size: 20px;
+  }
+
+  .mision {
+    font-size: 15px;
+  }
+  .servicioscontenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .serviciosconf {
+    width: 340px;
+  }
+
+  .serviciosconf img {
+    display: block;
+    margin: auto;
+  }
+
+  /*media staff*/
+  .contenedorcardstaff {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .conocealequipo {
+    font-size: 20px;
+  }
+
+  /*media tamaño formularios*/
+  form {
+    width: 500px;
+  }
+
+  /*pie de página predeterminado*/
+  .piedepag {
+    display: grid;
+    grid-template-areas: "mapa mapa contacto contacto";
+  }
+
+  .mapa {
+    grid-area: mapa;
+    width: 300px;
+    justify-self: center;
+  }
+
+  .contacto {
+    grid-area: contacto;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .servicioscontenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
