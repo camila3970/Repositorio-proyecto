@@ -27,7 +27,7 @@ body {
 }
 
 .barranavegacion li:hover {
-  background-color: rgb(122, 122, 122);
+  background-color: rgb(110, 119, 128);
 }
 
 a {
@@ -38,7 +38,7 @@ a {
 /*inicio*/
 
 .slogan {
-  background-color: rgb(188, 143, 143);
+  background-color: rgb(110, 119, 128);
   color: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -64,7 +64,7 @@ a {
 }
 
 .promo {
-  background-color: rgb(188, 143, 143);
+  background-color: rgb(110, 119, 128);
   font-family: "Poppins", sans-serif;
   padding: 3px;
   font-size: 15px;
@@ -88,14 +88,12 @@ a {
 }
 /*servicios html*/
 .nuestroserviciostitulo {
-  color: rgb(188, 143, 143);
+  background-color: rgb(110, 119, 128);
+  color: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   text-align: center;
-  border: 2px;
   width: auto;
-  border-style: solid;
-  border-color: rgb(188, 143, 143);
 }
 
 .mision {
@@ -107,27 +105,6 @@ a {
   border: 2px;
   border-style: solid;
 }
-.servicioscontenedor {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 10px;
-}
-
-/*.serviciosconf {
-  background-color: rgb(188, 143, 143);
-  font-family: "Poppins", sans-serif;
-  color: rgb(255, 255, 255);
-  font-size: 15px;
-  padding-top: 30px;
-  padding-left: 20px;
-  border: solid;
-  border-color: rgb(255, 255, 255);
-}
-
-.serviciosconf img {
-  display: block;
-  margin: auto;
-}*/
 
 /*nuestro staff html*/
 .conocealequipo {
