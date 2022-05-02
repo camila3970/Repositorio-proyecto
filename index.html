@@ -15,8 +15,7 @@
     <!--fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <title>NailStudio</title>
 </head>
 
@@ -29,9 +28,9 @@
             <li> 
                 <a href="index.html" class="inicio">Inicio</a>
             </li>
-            
+
             <li>
-                <a href="pages/servicios.html" class="nuestrosservicios">Servicios</a>
+                <a href="pages/servicios.html" class="contácto">Servicios</a>
             </li>
 
             <li>
@@ -42,9 +41,12 @@
                 <a href="pages/staff.html" class="nuestrostaff">Nuestro Staff</a>
             </li>
 
-            <li>
-                <a href="pages/contacto.html" class="contácto">Contácto</a>
-            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="pages/contacto.html" role="button" aria-expanded="false">Contácto</a>
+                <ul class="dropdown-menu">
+            <li><a class="dropdown-item bg-secondary text-white" href="../pages/trabajaconnosotros.html">Trabaja con nosotres</a></li>
+                </ul>
+           </li>
         </ul>
          
     </nav>

@@ -18,7 +18,7 @@ body {
 }
 
 .barra h1 {
-  font-family: "Cookie", cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 40px;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -31,8 +31,8 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 /*inicio*/
@@ -74,7 +74,7 @@ a {
 
 .servicios {
   color: rgb(188, 143, 143);
-  font-family: "Cookie", cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 40px;
 }
 
@@ -313,7 +313,7 @@ textarea {
   }
   /*media contacto*/
   .tituloform {
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-name: desliza;
   }
 
