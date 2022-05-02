@@ -140,18 +140,13 @@ textarea {
 }
 
 /* contacto html */
-.contenedorconsultas {
-  display: flex;
-  flex-direction: column;
-  border: solid;
-  border-color: rgb(188, 143, 143);
-}
 
 .tituloform {
+  color: rgb(110, 119, 128);
+  padding: 2px;
   font-family: "Poppins", sans-serif;
-  color: rgb(188, 143, 143);
-  padding-left: 0px;
-  padding-top: 0px;
+  text-align: center;
+  width: auto;
 }
 
 .formulariocontacto {
@@ -161,24 +156,11 @@ textarea {
   padding-bottom: 10px;
 }
 
-.trabajaconosotros {
-  font-family: "Poppins", sans-serif;
-  color: rgb(188, 143, 143);
-}
-
 /* trabajaconnosotroshtml */
 .formulariotrabaja {
   display: flex;
   flex-direction: column;
   padding-bottom: 10px;
-}
-
-.tituloformtra {
-  font-family: "Poppins", sans-serif;
-  color: rgb(188, 143, 143);
-  text-align: center;
-  padding-left: 0px;
-  padding-top: 0px;
 }
 /*pie de pagina determinado*/
 
@@ -329,7 +311,23 @@ textarea {
   .conocealequipo {
     font-size: 20px;
   }
+  /*media contacto*/
+  .tituloform {
+    animation-duration: 3s;
+    animation-name: desliza;
+  }
 
+  @keyframes desliza {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
   /*media tamaño formularios*/
   form {
     width: 500px;
