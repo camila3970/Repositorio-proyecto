@@ -100,9 +100,10 @@ a {
   font-size: 30px;
 }
 
-.col-3 {
+.columnamobile {
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
 }
 
 /*servicios html*/
@@ -303,5 +304,12 @@ textarea {
     grid-area: contacto;
     display: flex;
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .columnamobile {
+    flex-direction: row;
+    margin-left: 15px;
   }
 }
