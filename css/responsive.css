@@ -1,10 +1,11 @@
 /*barra predeterminada*/
 body {
   font-family: "Poppins", sans-serif;
+  color: #ebebeb;
 }
 .barra {
-  background-color: rgb(188, 143, 143);
-  color: rgb(255, 255, 255);
+  background-color: #ebebeb;
+  color: rgb(110, 119, 128);
 }
 
 .barranavegacion {
@@ -21,7 +22,7 @@ body {
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(110, 119, 128);
   margin-top: 0px;
   margin-bottom: 0px;
 }
