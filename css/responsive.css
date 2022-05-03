@@ -5,7 +5,11 @@ body {
 }
 .barra {
   background-color: #ebebeb;
-  color: rgb(110, 119, 128);
+  color: rgb(80, 80, 80);
+}
+
+.colortitutosbarra {
+  color: rgb(80, 80, 80);
 }
 
 .barranavegacion {
