@@ -50,10 +50,8 @@ a {
   font-size: 10px;
 }
 
-.fotoprincipal {
-  display: block;
-  margin-top: 10px;
-  width: 100%;
+.contenedorimagenprincipal {
+  background-image: url(../public/foto.png);
 }
 
 .botonservicios {
@@ -64,14 +62,26 @@ a {
   font-size: 10px;
   background-color: rgb(188, 143, 143);
 }
+.promocontainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(170, 140, 123);
+}
 
 .promo {
-  background-color: rgb(80, 80, 80);
+  display: flex;
+  flex-direction: column;
+  align-self: center;
   font-family: "Montserrat", sans-serif;
-  padding: 3px;
+  padding: 20px;
   font-size: 15px;
   color: rgb(255, 255, 255);
   text-align: center;
+}
+
+.logoblanco {
+  width: 150px;
+  height: 150px;
 }
 
 .servicios {
