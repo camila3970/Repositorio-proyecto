@@ -42,13 +42,12 @@ a {
 /*inicio*/
 
 .slogan {
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(170, 140, 123);
   color: rgb(255, 255, 255);
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  padding-top: 5px;
+  padding: 10px;
   font-size: 10px;
-  border-style: solid;
 }
 
 .fotoprincipal {
