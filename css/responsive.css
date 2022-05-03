@@ -52,16 +52,25 @@ a {
 
 .contenedorimagenprincipal {
   background-image: url(../public/foto.png);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .botonservicios {
   display: block;
   margin-bottom: 15px;
+  padding: 5px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 10px;
   background-color: rgb(255, 255, 255);
   color: rgb(170, 140, 123);
+  border: solid;
+  border-color: rgb(170, 140, 123);
 }
 .promocontainer {
   display: flex;
