@@ -51,9 +51,9 @@ a {
   text-align: center;
   font-size: 10px;
   background-color: rgb(255, 255, 255);
-  color: rgb(170, 140, 123);
+  color: rgb(80, 80, 80);
   border: solid;
-  border-color: rgb(170, 140, 123);
+  border-color: rgb(80, 80, 80);
 }
 
 .slogan {
@@ -77,7 +77,7 @@ a {
   align-self: center;
   font-family: "Montserrat", sans-serif;
   padding: 20px;
-  font-size: 15px;
+  font-size: 10px;
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -212,10 +212,27 @@ textarea {
     height: 500px;
   }
 
+  .botonservicios {
+    background-color: rgb(255, 255, 255);
+    color: rgb(170, 140, 123);
+    border: solid;
+    border-color: rgb(170, 140, 123);
+    font-size: 20px;
+  }
+
   .slogan {
     font-size: 15px;
     animation-duration: 3s;
     animation-name: desliza;
+  }
+
+  .promo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    font-size: 20px;
   }
 
   @keyframes desliza {
@@ -228,14 +245,6 @@ textarea {
       margin-left: 0%;
       width: 100%;
     }
-  }
-
-  .botonservicios {
-    font-size: 20px;
-  }
-
-  .promo {
-    font-size: 20px;
   }
 
   /*media servicios*/
