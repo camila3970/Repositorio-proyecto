@@ -23,12 +23,7 @@ body {
 
 .barra li:hover {
   border: solid;
-  border-color: rgb(80, 80, 80);
-}
-
-a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+  border-color: rgb(170, 140, 123);
 }
 
 /*inicio*/
@@ -54,6 +49,12 @@ a {
   color: rgb(80, 80, 80);
   border: solid;
   border-color: rgb(80, 80, 80);
+  text-decoration: none;
+}
+
+a.botonservicios {
+  text-decoration: none;
+  color: rgb(170, 140, 123);
 }
 
 .slogan {
