@@ -12,15 +12,6 @@ body {
   color: rgb(80, 80, 80);
 }
 
-.barranavegacion {
-  text-align: center;
-  padding-left: 0px;
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  font-size: 15px;
-}
-
 .barra h1 {
   font-family: "Nanum Myeongjo", serif;
   font-size: 30px;
@@ -30,8 +21,9 @@ body {
   margin-bottom: 0px;
 }
 
-.barranavegacion li:hover {
-  background-color: rgb(80, 80, 80);
+.barra li:hover {
+  border: solid;
+  border-color: rgb(80, 80, 80);
 }
 
 a {
@@ -41,18 +33,9 @@ a {
 
 /*inicio*/
 
-.slogan {
-  background-color: rgb(170, 140, 123);
-  color: rgb(255, 255, 255);
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  padding: 10px;
-  font-size: 10px;
-}
-
 .contenedorimagenprincipal {
-  background-image: url(../public/foto.png);
-  height: 500px;
+  background-image: url(../public/fotom.png);
+  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -72,6 +55,16 @@ a {
   border: solid;
   border-color: rgb(170, 140, 123);
 }
+
+.slogan {
+  background-color: rgb(170, 140, 123);
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+}
+
 .promocontainer {
   display: flex;
   justify-content: space-around;
@@ -103,7 +96,7 @@ a {
 .columnamobile {
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
+  margin: 15px;
 }
 
 /*servicios html*/
@@ -213,6 +206,12 @@ textarea {
 /* media barra predeterminada*/
 @media screen and (min-width: 768px) {
   /* media inicio*/
+
+  .contenedorimagenprincipal {
+    background-image: url(../public/foto.png);
+    height: 500px;
+  }
+
   .slogan {
     font-size: 15px;
     animation-duration: 3s;
