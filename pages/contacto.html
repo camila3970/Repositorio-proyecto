@@ -17,76 +17,125 @@
     <link rel="stylesheet" href="../css/responsive.css" />
 
     <!--fuentes-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Montserrat:wght@300;400&family=Nanum+Myeongjo&family=Philosopher&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Montserrat:wght@300;400&family=Nanum+Myeongjo&family=Philosopher&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <title>Contactanos</title>
   </head>
   <body>
     <!--CABECERA-->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light barra">
-          <div class="container">
-              <a class="navbar-brand" href="#">
-                  <img src="../public/logo-gris.png" alt="logo" width="100" height="100" class="d-inline-block align-text-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../public/logo-gris.png"
+              alt="logo"
+              width="100"
+              height="100"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="servicios.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="../index.html#dirigepromo">PROMO</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="staff.html">CONOCENOS</a>
+              </li>
+              <li class="nav-item dropdown mx-5">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  CONTÁCTANOS
                 </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item mx-5">
-                  <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
-                </li>
-                <li class="nav-item mx-5">
-                  <a class="nav-link" href="servicios.html">SERVICIOS</a>
-                </li>
-                <li class="nav-item mx-5">
-                  <a class="nav-link" href="../index.html#dirigepromo">PROMO</a>
-                </li>
-                <li class="nav-item mx-5">
-                  <a class="nav-link" href="staff.html">CONOCENOS</a>
-                </li>
-                <li class="nav-item dropdown mx-5">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    CONTÁCTANOS
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item colortitulosbarra" href="contacto.html">CONTÁCTO</a></li>
-                    <li><a class="dropdown-item colortitulosbarra" href="trabajaconnosotros.html">TRABAJA CON NOSOTRAS</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item colortitulosbarra"
+                      href="contacto.html"
+                      >CONTÁCTO</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item colortitulosbarra"
+                      href="trabajaconnosotros.html"
+                      >TRABAJA CON NOSOTRAS</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
-        </nav>
-  </header>
+        </div>
+      </nav>
+    </header>
     <!--CONTENIDO PRINCIPAL-->
     <main>
       <section class="formulariocontacto">
-        <div class="container border">
-          <div class="row d-flex justify-content-around">
-              <div class="col-12 m-1 py-2 text-center">
-                <h2 class="tituloform fw-bold">DEJANOS TU CONSULTA</h2>
-               <form action="">
-              </div>
-              <div class="col-6 m-1 py-2 text-center">
-                <input type="text" placeholder="Ingrese su nombre" />
-              </div>
-              <div class="col-6 m-1 py-2 text-center">
-                <input type="text" placeholder="Ingrese su mail" />
-              </div>
-              <div class="col-6 m-1 py-2 text-center">
-                <textarea name="comentarios" id="" cols="30" rows="10" placeholder="¿En qué podemos ayudarte?"></textarea>
-              </div>
-              <div class="col-6 m-1 py-2 text-center">
-                <input type="button" value="Enviar" id="button" />
-              </div>
+        <form action="">
+          <h2 class="tituloform fw-bold">DEJANOS TUS CONSULTA</h2>
+          <div>
+            <input type="text" placeholder="Ingrese su nombre" />
           </div>
-             </form>
+          <div>
+            <input type="text" placeholder="Ingrese su mail" />
+          </div>
+          <div>
+            <textarea
+              name="comentarios"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="¿En qué podemos ayudarte?"
+            ></textarea>
+          </div>
+          <div>
+            <input type="button" value="Enviar" id="button" />
+          </div>
+          <div>
+            <a href="trabajaconnosotros.html" class="trabajaconosotros"
+              >Trabaja con nosotres</a
+            >
+          </div>
+        </form>
       </section>
     </main>
-      
 
     <!--PIE DE PAGINA-->
     <footer class="piedepag">
