@@ -112,6 +112,10 @@ a.botonservicios {
   padding: 10px;
 }
 
+.servicioscontainer {
+  margin: 15px;
+}
+
 /*nuestro staff html*/
 .conocealequipo {
   color: rgb(80, 80, 80);
@@ -270,6 +274,10 @@ a.trabajaconnosotros {
     font-size: 20px;
     animation-duration: 3s;
     animation-name: desliza;
+  }
+
+  .servicioscontainer {
+    margin: 0px;
   }
 
   @keyframes desliza {
