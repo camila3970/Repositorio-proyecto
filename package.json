@@ -1,0 +1,23 @@
+{
+  "name": "repositorio-proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camila3970/Repositorio-proyecto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camila3970/Repositorio-proyecto/issues"
+  },
+  "homepage": "https://github.com/camila3970/Repositorio-proyecto#readme",
+  "devDependencies": {
+    "node": "^17.7.2",
+    "nodeman": "^1.1.2"
+  }
+}
