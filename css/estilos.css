@@ -67,6 +67,8 @@ body {
   text-align: center;
   padding: 10px;
   font-size: 10px; }
+  .slogan .slogantitulo {
+    font-size: 15px; }
 
 .promocontainer {
   display: flex;
@@ -182,6 +184,8 @@ a.trabajaconnosotros {
     font-size: 15px;
     animation-duration: 3s;
     animation-name: desliza; }
+    .slogan .slogantitulo {
+      font-size: 15px; }
   .promo {
     display: flex;
     flex-direction: column;
