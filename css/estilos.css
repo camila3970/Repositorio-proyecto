@@ -1,0 +1,246 @@
+@charset "UTF-8";
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ebebeb; }
+
+/*nav*/
+.barra {
+  background-color: #ebebeb;
+  color: #505050; }
+  .barra .colortitulosbarra {
+    color: #505050; }
+
+/*pie de pagina determinado*/
+.piedepag {
+  background-color: #505050;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .piedepag .mapa {
+    display: flex;
+    height: 200px;
+    padding-bottom: 10px; }
+  .piedepag .datosdecontactofoot {
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    margin: 5px; }
+  .piedepag .contacto li {
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+    color: white; }
+
+.contenedorimagenprincipal {
+  background-image: url(../public/fotom.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+  .contenedorimagenprincipal a.botonservicios {
+    text-decoration: none;
+    color: #aa8c7b; }
+  .contenedorimagenprincipal .botonservicios {
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 10px;
+    background-color: white;
+    color: #505050;
+    border: solid;
+    border-color: #505050;
+    text-decoration: none; }
+
+.slogan {
+  background-color: #aa8c7b;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-size: 10px; }
+
+.promocontainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #aa8c7b; }
+
+.logoblanco {
+  width: 150px;
+  height: 150px; }
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  font-size: 10px;
+  color: white;
+  text-align: center; }
+
+.columnamobile {
+  display: flex;
+  flex-direction: column;
+  margin: 15px; }
+
+/*Servicios html*/
+.nuestroserviciostitulo {
+  color: #505050;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: auto; }
+
+.mision {
+  background-color: #aa8c7b;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px; }
+
+.servicioscontainer {
+  padding: 5px; }
+
+/*nuestro staff html*/
+.conocealequipo {
+  color: #505050;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: auto; }
+
+/* estilo formularios contacto y trabaja con nosotres*/
+form {
+  width: autopx;
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 12px; }
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px; }
+  form #button {
+    background-color: #aa8c7b;
+    color: white; }
+
+/* contacto html y trabaja con nosotros */
+.tituloform {
+  color: #505050;
+  padding: 2px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  width: auto; }
+
+.tamañoform {
+  width: 50px; }
+
+a.trabajaconnosotros {
+  text-decoration: none;
+  color: #aa8c7b; }
+
+.trabajaconnosotros {
+  margin-bottom: 15px;
+  display: block;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  color: #505050;
+  border: solid;
+  border-color: #505050;
+  text-decoration: none; }
+
+@media screen and (min-width: 768px) {
+  /* media inicio*/
+  .barra li:hover {
+    border: solid;
+    border-color: #aa8c7b; }
+  .contenedorimagenprincipal {
+    background-image: url(../public/foto.png);
+    height: 500px; }
+    .contenedorimagenprincipal .botonservicios {
+      background-color: white;
+      color: #aa8c7b;
+      border: solid;
+      border-color: #aa8c7b;
+      font-size: 20px; }
+  .slogan {
+    font-size: 15px;
+    animation-duration: 3s;
+    animation-name: desliza; }
+  .promo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 20px;
+    font-size: 20px; }
+  @keyframes desliza {
+    from {
+      margin-left: 100%;
+      width: 300%; }
+    to {
+      margin-left: 0%;
+      width: 100%; } }
+  /*media servicios*/
+  .nuestroserviciostitulo {
+    font-size: 40px; }
+  .mision {
+    font-size: 20px;
+    animation-duration: 3s;
+    animation-name: desliza; }
+  .servicioscontainer {
+    margin: 0px; }
+  @keyframes desliza {
+    from {
+      margin-left: 100%;
+      width: 300%; }
+    to {
+      margin-left: 0%;
+      width: 100%; } }
+  /*media staff*/
+  .conocealequipo {
+    font-size: 40px; }
+  /*media contacto*/
+  .tituloform {
+    animation-duration: 1s;
+    animation-name: desliza; }
+  @keyframes desliza {
+    from {
+      margin-left: 100%;
+      width: 300%; }
+    to {
+      margin-left: 0%;
+      width: 100%; } }
+  /*media tamaño formularios*/
+  form {
+    width: 500px; }
+  /*pie de página predeterminado*/
+  .piedepag {
+    display: grid;
+    grid-template-areas: "mapa mapa contacto contacto"; }
+  .mapa {
+    grid-area: mapa;
+    width: 300px;
+    justify-self: center; }
+  .contacto {
+    grid-area: contacto;
+    display: flex;
+    align-items: center; } }
+
+@media screen and (min-width: 1200px) {
+  .columnamobile {
+    flex-direction: row;
+    margin-left: 15px; } }

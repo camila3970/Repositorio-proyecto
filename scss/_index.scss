@@ -1,0 +1,65 @@
+.contenedorimagenprincipal {
+  background-image: url(../public/fotom.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  a.botonservicios {
+    text-decoration: none;
+    color: rgb(170, 140, 123);
+  }
+
+  .botonservicios {
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-family: $font1;
+    text-align: center;
+    font-size: 10px;
+    background-color: $colorblanco;
+    color: $colorgris;
+    border: solid;
+    border-color: $colorgris;
+    text-decoration: none;
+  }
+}
+
+.slogan {
+  background-color: $colormarron;
+  color: $colorblanco;
+  font-family: $font1;
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.promocontainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: $colormarron;
+}
+
+.logoblanco {
+  width: 150px;
+  height: 150px;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: $font1;
+  padding: 20px;
+  font-size: 10px;
+  color: $colorblanco;
+  text-align: center;
+}
+
+.columnamobile {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}

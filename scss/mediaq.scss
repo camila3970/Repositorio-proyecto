@@ -1,0 +1,125 @@
+@media screen and (min-width: 768px) {
+  /* media inicio*/
+
+  .barra li:hover {
+    border: solid;
+    border-color: $colormarron;
+  }
+
+  .contenedorimagenprincipal {
+    background-image: url(../public/foto.png);
+    height: 500px;
+
+    .botonservicios {
+      background-color: $colorblanco;
+      color: $colormarron;
+      border: solid;
+      border-color: $colormarron;
+      font-size: 20px;
+    }
+  }
+
+  .slogan {
+    font-size: 15px;
+    animation-duration: 3s;
+    animation-name: desliza;
+  }
+
+  .promo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  @keyframes desliza {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  /*media servicios*/
+  .nuestroserviciostitulo {
+    font-size: 40px;
+  }
+
+  .mision {
+    font-size: 20px;
+    animation-duration: 3s;
+    animation-name: desliza;
+  }
+
+  .servicioscontainer {
+    margin: 0px;
+  }
+
+  @keyframes desliza {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  /*media staff*/
+  .conocealequipo {
+    font-size: 40px;
+  }
+  /*media contacto*/
+  .tituloform {
+    animation-duration: 1s;
+    animation-name: desliza;
+  }
+
+  @keyframes desliza {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  /*media tamaño formularios*/
+  form {
+    width: 500px;
+  }
+
+  /*pie de página predeterminado*/
+  .piedepag {
+    display: grid;
+    grid-template-areas: "mapa mapa contacto contacto";
+  }
+
+  .mapa {
+    grid-area: mapa;
+    width: 300px;
+    justify-self: center;
+  }
+
+  .contacto {
+    grid-area: contacto;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .columnamobile {
+    flex-direction: row;
+    margin-left: 15px;
+  }
+}

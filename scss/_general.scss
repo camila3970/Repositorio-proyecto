@@ -1,0 +1,48 @@
+body {
+  font-family: $font1;
+  background-color: $colorblanconav;
+}
+
+/*nav*/
+.barra {
+  background-color: $colorblanconav;
+  color: $colorgris;
+
+  .colortitulosbarra {
+    color: $colorgris;
+  }
+}
+
+/*pie de pagina determinado*/
+
+.piedepag {
+  background-color: $colorgris;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: $colorblanco;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .mapa {
+    display: flex;
+    height: 200px;
+    padding-bottom: 10px;
+  }
+
+  .datosdecontactofoot {
+    font-family: $font1;
+    list-style: none;
+    margin: 5px;
+  }
+
+  .contacto li {
+    list-style: none;
+    font-family: $font1;
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+    color: $colorblanco;
+  }
+}

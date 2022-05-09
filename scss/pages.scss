@@ -1,0 +1,85 @@
+/*Servicios html*/
+.nuestroserviciostitulo {
+  color: $colorgris;
+  font-family: $font1;
+  font-size: 20px;
+  text-align: center;
+  width: auto;
+}
+
+.mision {
+  background-color: $colormarron;
+  color: $colorblanco;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.servicioscontainer {
+  padding: 5px;
+}
+
+/*nuestro staff html*/
+.conocealequipo {
+  color: $colorgris;
+  font-family: $font1;
+  font-size: 20px;
+  text-align: center;
+  width: auto;
+}
+
+/* estilo formularios contacto y trabaja con nosotres*/
+
+form {
+  width: autopx;
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 12px;
+
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+  }
+
+  #button {
+    background-color: $colormarron;
+    color: $colorblanco;
+  }
+}
+
+/* contacto html y trabaja con nosotros */
+
+.tituloform {
+  color: $colorgris;
+  padding: 2px;
+  font-family: $font1;
+  text-align: center;
+  width: auto;
+}
+
+.tamañoform {
+  width: 50px;
+}
+
+a.trabajaconnosotros {
+  text-decoration: none;
+  color: rgb(170, 140, 123);
+}
+
+.trabajaconnosotros {
+  margin-bottom: 15px;
+  display: block;
+  padding: 5px;
+  font-family: $font1;
+  text-align: center;
+  font-size: 15px;
+  color: $colorgris;
+  border: solid;
+  border-color: $colorgris;
+  text-decoration: none;
+}
