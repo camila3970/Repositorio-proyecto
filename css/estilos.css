@@ -70,6 +70,16 @@ body {
   .slogan .slogantitulo {
     font-size: 15px; }
 
+.tituloservi {
+  color: #505050;
+  text-align: center;
+  margin-left: 110px; }
+
+.tituloservit {
+  color: #505050;
+  text-align: center;
+  margin-left: 90px; }
+
 .promocontainer {
   display: flex;
   justify-content: space-around;
@@ -186,6 +196,10 @@ a.trabajaconnosotros {
     animation-name: desliza; }
     .slogan .slogantitulo {
       font-size: 15px; }
+  .tituloservi {
+    margin-left: auto; }
+  .tituloservit {
+    margin-left: auto; }
   .promo {
     display: flex;
     flex-direction: column;
