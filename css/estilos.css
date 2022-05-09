@@ -141,6 +141,7 @@ form {
   color: #505050;
   padding: 2px;
   font-family: "Montserrat", sans-serif;
+  font-size: 20px;
   text-align: center;
   width: auto; }
 
@@ -216,7 +217,8 @@ a.trabajaconnosotros {
   /*media contacto*/
   .tituloform {
     animation-duration: 1s;
-    animation-name: desliza; }
+    animation-name: desliza;
+    font-size: 30px; }
   @keyframes desliza {
     from {
       margin-left: 100%;
