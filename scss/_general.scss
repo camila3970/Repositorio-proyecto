@@ -36,7 +36,19 @@ body {
     list-style: none;
     margin: 5px;
   }
+  /*
+  $contacto: (
+    facebook: $colormarron,
+    instagram: $colormarron,
+    mail: $colormarron,
+    numero: $colormarron,
+  );
 
+  @each $con, $color in $contacto {
+    .colordatosfooter-#{$con} {
+      color: $color;
+    }
+  }*/
   .contacto li {
     list-style: none;
     font-family: $font1;
