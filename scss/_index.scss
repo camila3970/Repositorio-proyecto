@@ -1,3 +1,8 @@
+@mixin titulosservicios {
+  color: $colorgris;
+  text-align: center;
+}
+
 .contenedorimagenprincipal {
   background-image: url(../public/fotom.png);
   height: 400px;
@@ -41,14 +46,12 @@
 }
 
 .tituloservi {
-  color: $colorgris;
-  text-align: center;
+  @include titulosservicios;
   margin-left: 110px;
 }
 
 .tituloservit {
-  color: $colorgris;
-  text-align: center;
+  @include titulosservicios;
   margin-left: 90px;
 }
 

@@ -1,3 +1,8 @@
+@mixin animacion {
+  animation-duration: 3s;
+  animation-name: desliza;
+}
+
 @media screen and (min-width: 768px) {
   /* media inicio*/
 
@@ -20,9 +25,8 @@
   }
 
   .slogan {
+    @include animacion;
     font-size: 15px;
-    animation-duration: 3s;
-    animation-name: desliza;
 
     .slogantitulo {
       font-size: 15px;
@@ -64,8 +68,7 @@
 
   .mision {
     font-size: 20px;
-    animation-duration: 3s;
-    animation-name: desliza;
+    @include animacion;
   }
 
   .servicioscontainer {

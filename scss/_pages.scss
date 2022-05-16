@@ -1,10 +1,15 @@
-/*Servicios html*/
-.nuestroserviciostitulo {
+/*Mixin*/
+@mixin titulos {
   color: $colorgris;
   font-family: $font1;
-  font-size: 20px;
   text-align: center;
   width: auto;
+}
+
+/*Servicios html*/
+.nuestroserviciostitulo {
+  @include titulos;
+  font-size: 20px;
 }
 
 .mision {
@@ -21,11 +26,7 @@
 
 /*nuestro staff html*/
 .conocealequipo {
-  color: $colorgris;
-  font-family: $font1;
-  font-size: 20px;
-  text-align: center;
-  width: auto;
+  @extend .nuestroserviciostitulo;
 }
 
 /* estilo formularios contacto y trabaja con nosotres*/
@@ -55,12 +56,8 @@ form {
 /* contacto html y trabaja con nosotros */
 
 .tituloform {
-  color: $colorgris;
+  @extend .nuestroserviciostitulo;
   padding: 2px;
-  font-family: $font1;
-  font-size: 20px;
-  text-align: center;
-  width: auto;
 }
 
 .tamañoform {

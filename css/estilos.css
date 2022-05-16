@@ -7915,13 +7915,14 @@ body {
   flex-direction: column;
   margin: 15px; }
 
+/*Mixin*/
 /*Servicios html*/
-.nuestroserviciostitulo {
+.nuestroserviciostitulo, .conocealequipo, .tituloform {
   color: #505050;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
   text-align: center;
-  width: auto; }
+  width: auto;
+  font-size: 20px; }
 
 .mision {
   background-color: #aa8c7b;
@@ -7934,13 +7935,6 @@ body {
   padding: 5px; }
 
 /*nuestro staff html*/
-.conocealequipo {
-  color: #505050;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  width: auto; }
-
 /* estilo formularios contacto y trabaja con nosotres*/
 form {
   width: autopx;
@@ -7961,12 +7955,7 @@ form {
 
 /* contacto html y trabaja con nosotros */
 .tituloform {
-  color: #505050;
-  padding: 2px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  width: auto; }
+  padding: 2px; }
 
 .tamañoform {
   width: 50px; }
@@ -8002,9 +7991,9 @@ a.trabajaconnosotros {
       border-color: #aa8c7b;
       font-size: 20px; }
   .slogan {
-    font-size: 15px;
     animation-duration: 3s;
-    animation-name: desliza; }
+    animation-name: desliza;
+    font-size: 15px; }
     .slogan .slogantitulo {
       font-size: 15px; }
   .tituloservi {
@@ -8025,7 +8014,7 @@ a.trabajaconnosotros {
       margin-left: 0%;
       width: 100%; } }
   /*media servicios*/
-  .nuestroserviciostitulo {
+  .nuestroserviciostitulo, .conocealequipo, .tituloform {
     font-size: 40px; }
   .mision {
     font-size: 20px;
