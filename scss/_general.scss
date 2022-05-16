@@ -46,7 +46,7 @@ body {
 
   @each $con, $color in $contacto {
     .colordatosfooter-#{$con} {
-      color: $color;
+      color: $colormarron;
     }
   }
   .contacto li {
@@ -55,6 +55,5 @@ body {
     font-size: 15px;
     margin: 5px;
     text-decoration: none;
-    color: $colorblanco;
   }
 }

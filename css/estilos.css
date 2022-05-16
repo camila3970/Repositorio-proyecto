@@ -7852,8 +7852,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     margin: 5px;
-    text-decoration: none;
-    color: white; }
+    text-decoration: none; }
 
 .contenedorimagenprincipal {
   background-image: url(../public/fotom.png);
