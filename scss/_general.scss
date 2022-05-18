@@ -11,6 +11,13 @@ body {
   .colortitulosbarra {
     color: $colorgris;
   }
+
+  .dropdown-item.active,
+  .dropdown-item:active {
+    color: $colormarron;
+    text-decoration: none;
+    background-color: $colorblanconav;
+  }
 }
 
 /*pie de pagina determinado*/

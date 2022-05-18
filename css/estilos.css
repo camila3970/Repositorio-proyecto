@@ -7820,6 +7820,11 @@ body {
   color: #505050; }
   .barra .colortitulosbarra {
     color: #505050; }
+  .barra .dropdown-item.active,
+  .barra .dropdown-item:active {
+    color: #aa8c7b;
+    text-decoration: none;
+    background-color: #ebebeb; }
 
 /*pie de pagina determinado*/
 .piedepag {
