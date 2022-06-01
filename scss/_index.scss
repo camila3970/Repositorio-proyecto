@@ -11,25 +11,6 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
-  a.botonservicios {
-    text-decoration: none;
-    color: rgb(170, 140, 123);
-  }
-
-  .botonservicios {
-    display: block;
-    margin-bottom: 15px;
-    padding: 5px;
-    font-family: $font1;
-    text-align: center;
-    font-size: 10px;
-    background-color: $colorblanco;
-    color: $colorgris;
-    border: solid;
-    border-color: $colorgris;
-    text-decoration: none;
-  }
 }
 
 .slogan {
@@ -42,6 +23,34 @@
 
   .slogantitulo {
     font-size: 15px;
+  }
+}
+
+.servicioscontenedor {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  a.botonservicios {
+    color: $colorblanco;
+    text-decoration: none;
+  }
+
+  .botonservicios {
+    padding: 8px;
+    font-family: $font1;
+    font-size: 15px;
+    background-color: $colorgris;
+    border: solid;
+    border-color: $colormarron;
+  }
+
+  .botonservicios:hover {
+    background-color: $colormarron;
+    color: $colorblanco;
+    border: solid;
+    border-color: $colorgris;
   }
 }
 

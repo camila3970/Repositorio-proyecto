@@ -10,6 +10,7 @@
 .nuestroserviciostitulo {
   @include titulos;
   font-size: 20px;
+  padding: 15px;
 }
 
 .mision {
@@ -27,6 +28,7 @@
 /*nuestro staff html*/
 .conocealequipo {
   @extend .nuestroserviciostitulo;
+  padding: 15px;
 }
 
 /* estilo formularios contacto y trabaja con nosotres*/
@@ -50,6 +52,7 @@ form {
   #button {
     background-color: $colormarron;
     color: $colorblanco;
+    border-color: $colormarron;
   }
 }
 
@@ -57,7 +60,7 @@ form {
 
 .tituloform {
   @extend .nuestroserviciostitulo;
-  padding: 2px;
+  padding: 15px;
 }
 
 .tamañoform {
@@ -66,18 +69,26 @@ form {
 
 a.trabajaconnosotros {
   text-decoration: none;
-  color: rgb(170, 140, 123);
+  color: $colorblanco;
 }
 
 .trabajaconnosotros {
   margin-bottom: 15px;
   display: block;
-  padding: 5px;
+  padding: 8px;
   font-family: $font1;
   text-align: center;
   font-size: 15px;
+  background-color: $colormarron;
   color: $colorgris;
   border: solid;
-  border-color: $colorgris;
+  border-color: $colormarron;
   text-decoration: none;
+}
+
+.trabajaconnosotros:hover {
+  background-color: $colorgris;
+  color: $colorblanco;
+  border: solid;
+  border-color: $colorgris;
 }

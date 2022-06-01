@@ -7870,21 +7870,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end; }
-  .contenedorimagenprincipal a.botonservicios {
-    text-decoration: none;
-    color: #aa8c7b; }
-  .contenedorimagenprincipal .botonservicios {
-    display: block;
-    margin-bottom: 15px;
-    padding: 5px;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    font-size: 10px;
-    background-color: white;
-    color: #505050;
-    border: solid;
-    border-color: #505050;
-    text-decoration: none; }
 
 .slogan {
   background-color: #aa8c7b;
@@ -7895,6 +7880,27 @@ body {
   font-size: 10px; }
   .slogan .slogantitulo {
     font-size: 15px; }
+
+.servicioscontenedor {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px; }
+  .servicioscontenedor a.botonservicios {
+    color: white;
+    text-decoration: none; }
+  .servicioscontenedor .botonservicios {
+    padding: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    background-color: #505050;
+    border: solid;
+    border-color: #aa8c7b; }
+  .servicioscontenedor .botonservicios:hover {
+    background-color: #aa8c7b;
+    color: white;
+    border: solid;
+    border-color: #505050; }
 
 .promocontainer {
   display: flex;
@@ -7922,7 +7928,8 @@ body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   width: auto;
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 15px; }
 
 .mision {
   background-color: #aa8c7b;
@@ -7935,6 +7942,9 @@ body {
   padding: 5px; }
 
 /*nuestro staff html*/
+.conocealequipo {
+  padding: 15px; }
+
 /* estilo formularios contacto y trabaja con nosotres*/
 form {
   width: autopx;
@@ -7951,30 +7961,38 @@ form {
     font-size: 17px; }
   form #button {
     background-color: #aa8c7b;
-    color: white; }
+    color: white;
+    border-color: #aa8c7b; }
 
 /* contacto html y trabaja con nosotros */
 .tituloform {
-  padding: 2px; }
+  padding: 15px; }
 
 .tamañoform {
   width: 50px; }
 
 a.trabajaconnosotros {
   text-decoration: none;
-  color: #aa8c7b; }
+  color: white; }
 
 .trabajaconnosotros {
   margin-bottom: 15px;
   display: block;
-  padding: 5px;
+  padding: 8px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 15px;
+  background-color: #aa8c7b;
   color: #505050;
   border: solid;
-  border-color: #505050;
+  border-color: #aa8c7b;
   text-decoration: none; }
+
+.trabajaconnosotros:hover {
+  background-color: #505050;
+  color: white;
+  border: solid;
+  border-color: #505050; }
 
 @media screen and (min-width: 768px) {
   /* media inicio*/
@@ -7984,18 +8002,17 @@ a.trabajaconnosotros {
   .contenedorimagenprincipal {
     background-image: url(../public/foto.png);
     height: 500px; }
-    .contenedorimagenprincipal .botonservicios {
-      background-color: white;
-      color: #aa8c7b;
-      border: solid;
-      border-color: #aa8c7b;
-      font-size: 20px; }
   .slogan {
     animation-duration: 3s;
     animation-name: desliza;
     font-size: 15px; }
     .slogan .slogantitulo {
       font-size: 15px; }
+  .servicioscontenedor a.botonservicios {
+    text-decoration: none;
+    color: white; }
+  .servicioscontenedor .botonservicios {
+    font-size: 20px; }
   .tituloservi {
     margin-left: auto; }
   .tituloservit {
@@ -8044,9 +8061,6 @@ a.trabajaconnosotros {
     to {
       margin-left: 0%;
       width: 100%; } }
-  /*media tamaño formularios*/
-  form {
-    width: 500px; }
   /*pie de página predeterminado*/
   .piedepag {
     display: grid;

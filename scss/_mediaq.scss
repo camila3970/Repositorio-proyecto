@@ -14,14 +14,6 @@
   .contenedorimagenprincipal {
     background-image: url(../public/foto.png);
     height: 500px;
-
-    .botonservicios {
-      background-color: $colorblanco;
-      color: $colormarron;
-      border: solid;
-      border-color: $colormarron;
-      font-size: 20px;
-    }
   }
 
   .slogan {
@@ -30,6 +22,17 @@
 
     .slogantitulo {
       font-size: 15px;
+    }
+  }
+
+  .servicioscontenedor {
+    a.botonservicios {
+      text-decoration: none;
+      color: $colorblanco;
+    }
+
+    .botonservicios {
+      font-size: 20px;
     }
   }
 
@@ -108,10 +111,6 @@
       margin-left: 0%;
       width: 100%;
     }
-  }
-  /*media tamaño formularios*/
-  form {
-    width: 500px;
   }
 
   /*pie de página predeterminado*/
